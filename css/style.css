@@ -3,10 +3,6 @@
     flex-direction: column;
     flex: 20;
     height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* opacity: 0.1; */
 }
 
 .container::after {
@@ -112,7 +108,6 @@
     /* text-align: center; */
 }
 
-
 #todo-list {
     flex: 1;
     color: white;
@@ -137,19 +132,7 @@ button {
 
 body {
     margin: 0;
-    /* height: 100vh; */
-    /* background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
 }
-
-
-
-/* 
-tutorial 
------- 
-body {
-    background-color: beige;
-} 
-
-*/
