@@ -43,16 +43,15 @@
     font-weight: 900;
     align-items: center;
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    margin-left: 50px;
 }
 
 #clock {
     color: white;
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-    /* flex: 5; */
-    /* align-items: center; */
     text-align: right;
-    margin-right: 50px;
     font-size: 35px;
+    margin-right: 50px;
 }
 
 #login-enter {
