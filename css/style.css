@@ -3,6 +3,14 @@
     flex-direction: column;
     flex: 20;
     height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.1; */
+}
+
+.container::after {
+    content: "";
 }
 
 .hidden {
@@ -110,10 +118,7 @@
     color: white;
     font-size: 21px;
     flex-wrap: nowrap;
-}
-
-#todo-list::button {
-    margin-left: 5px;
+    /* background-color: rgba(0, 0, 0, 0.8); */
 }
 
 button {
@@ -131,10 +136,11 @@ button {
 
 
 body {
-    height: 100vh;
-    background-position: center;
+    margin: 0;
+    /* height: 100vh; */
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 
