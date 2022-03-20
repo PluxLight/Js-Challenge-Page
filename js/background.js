@@ -14,7 +14,7 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = `img/${chosenImage}`;
 
-document.body.style.backgroundImage = 'url(' + bgImage + ')';
+document.body.style.backgroundImage = 'linear-gradient(to bottom,rgba(0,0,0,0.5) 0%, rgba(17,17,17,0.85) 30%), url(' + bgImage + ')';
 // bg.style.backgroundImage = 'url(' + bgImage + ')';
 
 // opacity(0.6), 
